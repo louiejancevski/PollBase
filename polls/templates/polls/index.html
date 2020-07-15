@@ -1,0 +1,35 @@
+{% extends "./base.html" %}
+{% block content %}
+    
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<div class="container text-center">
+    <h1 class="mt-5  font-weight-light">Choose a poll</h1>
+    <p class="lead ">Answer history questions and see what others have voted!</p>
+    <img class="mb-5 pt-2" style="height: 235px;" src="{% static 'polls/images/polls-image.svg' %}" alt="Polls">
+</div>
+
+<div class="container">
+    <div class="row">
+        {% if latest_question_list %}
+            {% for question in latest_question_list %}
+                <div class="col-6 col-sm-6 col-12 mb-3"> 
+                    <a href="{% url 'polls:detail' question.id %}">
+                        <div class="text-center col-sm px-3 card q-card">
+                            <span class="question-title">{{ question.question_text }} </span>
+                        </div>               
+                    </a>
+                </div>
+        {% endfor %}
+        {% else %}
+            <p>No polls are available.</p>
+        {% endif %}
+    </div>
+</div>
+
+{% endblock content %}
+
+
+

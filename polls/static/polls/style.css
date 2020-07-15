@@ -1,0 +1,100 @@
+body {
+  padding-bottom: 60px;
+  background: #ecf5f9;
+  background: linear-gradient(to right, #ecf5f9, #ecf5f9);
+}
+
+li a {
+  color: black;
+}
+
+.q-card, .d-card{
+  width: 1%;
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 19px;
+  height: 120px;
+  padding: 20px 10px;
+  color:#505A64;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 8px 20px rgba(80, 90, 100, 0.1);
+  border-radius: 8px;
+  transition: 0.4s;
+  border-style: none;
+}
+
+.d-card {
+  height: auto!important;
+}
+
+.q-card:hover {
+  box-shadow: 0px 8px 20px rgba(80, 90, 100, 0.3);
+}
+
+.badge-s, .badge-d {
+  cursor: pointer;
+  align-self: center;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 16px;
+  background-color: #71CFEB;
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.badge-d, .badge-d:hover {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.n-pointer {
+  cursor: default!important;
+}
+
+.btn:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.question-title {
+  color: #505A64;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: none!important;
+}
+
+.goback, .goback:hover{
+  align-self: center;
+  padding: 10px;
+  color: #fff;
+  border-radius: 5px;
+  margin-right: 16px;
+  background-color: #eb9371;
+  font-weight: 700;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+
+.question {
+  font-weight: 400!important;
+}
+
+
+.alert-danger {
+  padding: 4px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  font-size: 12px;
+}

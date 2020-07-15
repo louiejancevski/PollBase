@@ -1,0 +1,32 @@
+{% extends "./base.html" %}
+
+{% block title %}Details{% endblock title %} 
+
+{% block content %}
+
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'polls/style.css' %}">
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="text-center d-card p-5 col-12">
+            <h5 class="question">{{ question.question_text }}</h5>
+            {% for choice in question.choice_set.all %}
+                <li>{{ choice.choice_text }} - {{ choice.votes }} vote{{ choice.votes|pluralize }}</li>
+            {% endfor %}                        
+        </div>
+    </div>
+</div>
+
+<div class="container mt-3">
+    <div class="row">
+        <a href="../../" class="text-center goback p-3 col-12">
+            Go Back
+        </a>
+    </div>
+</div>
+
+{% endblock content %}
+
+
