@@ -1,6 +1,5 @@
 # PollBase
 - History poll web application.
-- Undergraduate project 
 - Version 1.0
 
 ## URL / Live version
