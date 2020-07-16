@@ -1,7 +1,9 @@
-# PollBase - v1.0
-History poll web application.
+# PollBase
+- History poll web application.
+- Version 1.0
 
 ## URL
+This app is currenty being hosted on Heroku:
 -  https://pollbase.herokuapp.com/
 
 ## About this app
