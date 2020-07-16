@@ -1,8 +1,7 @@
 # PollBase
 History poll web application.
 
-## URL 
-https://pollbase.herokuapp.com/
+URL -  https://pollbase.herokuapp.com/
 
 ## About this app
 PollBase is a small web application built using the Django web framework. Django is a Python-based free web framework that follows the model-template-view architectural pattern.
