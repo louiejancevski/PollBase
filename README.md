@@ -4,7 +4,7 @@
 
 ## URL / Live version
 This app was deployed and is currenty being hosted on Heroku:
--  https://pollbase.herokuapp.com/
+- [pollbase.herokuapp.com/](https://pollbase.herokuapp.com/)
 
 ## About this app
 PollBase is a small web application built using the Django web framework. 
